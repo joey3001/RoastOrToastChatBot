@@ -17,7 +17,7 @@ namespace ConsultingBot.Dialogs
     {
         public ToastDialog(string dialogId) : base(dialogId)
         {
-            AddDialog(new TextPrompt(nameof(TextPrompt) + "GetToasted"));
+            AddDialog(new TextPrompt(nameof(TextPrompt) + "Toasted"));
             AddDialog(new ChoicePrompt(nameof(ChoicePrompt)));
             AddDialog(new ConfirmPrompt(nameof(ConfirmPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]

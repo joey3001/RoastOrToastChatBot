@@ -63,6 +63,7 @@ namespace ConsultingBot.Dialogs
                         :
                     new ConsultingRequestDetails();
                 Console.WriteLine(requestDetails.intent); 
+                Console.WriteLine("Hello");
                 switch (requestDetails.intent)
                 {
                     case Intent.Roast: //

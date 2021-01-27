@@ -14,7 +14,7 @@ using Newtonsoft.Json.Linq;
 
 namespace ConsultingBot
 {
-    public static class LuisConsultingProjectRecognizer : IRecognizer
+    public class LuisConsultingProjectRecognizer 
     {
         public static async Task<ConsultingRequestDetails> ExecuteQuery(IConfiguration configuration, ILogger logger, ITurnContext turnContext, CancellationToken cancellationToken)
         {
@@ -29,13 +29,13 @@ namespace ConsultingBot
                     "https://" + configuration["LuisAPIHostName"]
                 );
 
-                var recognizerOptions = new LuisRecognizerOptionsV3(luisApplication)
-                {
-                    PredictionOptions = new Bot.Builder.AI.LuisV3.LuisPredictionOptions
-                    {
-                        IncludeInstanceData = true,
-                    }
-                };
+                // var recognizerOptions = new LuisRecognizerOptionsV3(luisApplication)
+                // {
+                //     PredictionOptions = new Bot.Builder.AI.LuisV3.LuisPredictionOptions
+                //     {
+                //         IncludeInstanceData = true,
+                //     }
+                // };
 
                 var recognizer = new LuisRecognizer(luisApplication);
 
