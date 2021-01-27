@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using ConsultingBot.Model;
@@ -8,9 +6,6 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.AI.Luis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Microsoft.Recognizers.Text;
-using Microsoft.Recognizers.Text.DateTime;
-using Newtonsoft.Json.Linq;
 
 namespace ConsultingBot
 {
@@ -36,6 +31,8 @@ namespace ConsultingBot
                 var (intent, score) = recognizerResult.GetTopScoringIntent();
 
                 // Now based on the intent, fill in the result as best we can
+                var entities = recognizerResult.Entities; 
+
                 switch (intent)
                 {
                     case "Toast":
@@ -59,7 +56,6 @@ namespace ConsultingBot
             {
                 logger.LogWarning($"LUIS Exception: {e.Message} Check your LUIS configuration.");
             }
-
             return result;
         }
 

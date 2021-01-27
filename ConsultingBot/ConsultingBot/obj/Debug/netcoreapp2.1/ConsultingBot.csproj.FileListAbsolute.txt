@@ -54,7 +54,6 @@ C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\appSettings.sample.Development.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\DeploymentTemplates\template-with-new-rg.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\DeploymentTemplates\template-with-preexisting-rg.json
-C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\Model\LuisConsultingProjectModel.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\appSettings.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.deps.json

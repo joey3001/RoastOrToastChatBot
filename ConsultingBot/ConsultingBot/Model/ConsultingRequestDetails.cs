@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-
+﻿
 namespace ConsultingBot.Model
 {
     public enum Intent
@@ -12,6 +11,5 @@ namespace ConsultingBot.Model
     public class ConsultingRequestDetails
     {
         public Intent intent { get; set; } = Intent.Unknown;
-
     }
 }
