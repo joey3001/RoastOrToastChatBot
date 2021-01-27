@@ -55,20 +55,18 @@ namespace ConsultingBot.Dialogs
                     await LuisConsultingProjectRecognizer.ExecuteQuery(Configuration, Logger, stepContext.Context, cancellationToken)
                         :
                     new ConsultingRequestDetails();
-                Console.WriteLine(requestDetails.intent); 
-                Console.WriteLine("Hello");
                 switch (requestDetails.intent)
                 {
-                    case Intent.Roast: //
+                    case Intent.Roast:
                         {
-                            return await stepContext.BeginDialogAsync(nameof(RoastDialog), cancellationToken);
+                            return await stepContext.BeginDialogAsync(nameof(RoastDialog), requestDetails, cancellationToken);
                         }
                     case Intent.Toast:
                         {
                             return await stepContext.BeginDialogAsync(nameof(ToastDialog), requestDetails, cancellationToken);
                         }
                 }
-
+                
                 requestDetails.intent = Intent.Unknown;
                 return await stepContext.NextAsync(requestDetails, cancellationToken);
             }
@@ -78,6 +76,7 @@ namespace ConsultingBot.Dialogs
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var result = stepContext.Result as ConsultingRequestDetails;
+            Console.WriteLine(result);
 
             // If the child dialog was cancelled or the user failed to confirm, the result will be null.
             if (result == null)

@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "ffPZNWmMkrOD3vOs060fPQYOvokRbhwTbyqIHVDQA29uXxPuJYxwTl/5acKPjGSxrVp2tjWGu1FsNQfANwv7pQ==",
+  "dgSpecHash": "UYYV9G8u1D6CaKXtefR/uk/EtSLN8z6g41UmpyWhp7Rdt8r2okBCc8AC5+KNObSaySL3T/2inRuxRKLpzFCGMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\josep\\.nuget\\packages\\adaptivecards\\1.2.4\\adaptivecards.1.2.4.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\adaptivecards.templating\\0.1.0-alpha1\\adaptivecards.templating.0.1.0-alpha1.nupkg.sha512",
-    "C:\\Users\\josep\\.nuget\\packages\\jurassic\\3.0.0\\jurassic.3.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

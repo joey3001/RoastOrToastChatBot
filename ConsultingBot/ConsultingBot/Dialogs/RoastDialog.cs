@@ -15,7 +15,8 @@ namespace ConsultingBot.Dialogs
             AddDialog(new ConfirmPrompt(nameof(ConfirmPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
-                ProjectStepAsync
+                ProjectStepAsync,
+                FinalStepAsync,
             }));
 
             // The initial child Dialog to run.
@@ -35,6 +36,11 @@ namespace ConsultingBot.Dialogs
             {
                 Prompt = MessageFactory.Text("You'll never get your chatbot to work"),
             }, cancellationToken);
+        }
+        
+        private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
+            return await stepContext.EndDialogAsync(null, cancellationToken);
         }
     }
 }
