@@ -15,8 +15,7 @@ namespace ConsultingBot.Dialogs
             AddDialog(new ConfirmPrompt(nameof(ConfirmPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
-                ProjectStepAsync,
-                FinalStepAsync,
+                ProjectStepAsync
             }));
 
             // The initial child Dialog to run.
@@ -31,16 +30,8 @@ namespace ConsultingBot.Dialogs
                 ? stepContext.Options as ConsultingRequestDetails
                 : new ConsultingRequestDetails();
 
-            // List<ConsultingProject> result = await ResolveProject(requestDetails.projectName);
-            return await stepContext.PromptAsync(nameof(TextPrompt) + "Roasted", new PromptOptions
-            {
-                Prompt = MessageFactory.Text("You'll never get your chatbot to work"),
-            }, cancellationToken);
-        }
-        
-        private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
-        {
-            return await stepContext.EndDialogAsync(null, cancellationToken);
+            await stepContext.Context.SendActivityAsync(MessageFactory.Text("You'll never get your ChatBot to work."), cancellationToken);
+            return await stepContext.EndDialogAsync(null, cancellationToken);            
         }
     }
 }

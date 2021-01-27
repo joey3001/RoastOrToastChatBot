@@ -19,6 +19,8 @@ namespace ConsultingBot.Dialogs
         protected readonly IConfiguration Configuration;
         protected readonly ILogger Logger;
 
+        public int x; // UNCONVENTIONAL
+
         public MainDialog(IConfiguration configuration, ILogger<MainDialog> logger)
             : base(nameof(MainDialog))
         {
@@ -59,10 +61,12 @@ namespace ConsultingBot.Dialogs
                 {
                     case Intent.Roast:
                         {
+                            x = 1;
                             return await stepContext.BeginDialogAsync(nameof(RoastDialog), requestDetails, cancellationToken);
                         }
                     case Intent.Toast:
                         {
+                            x = 1;
                             return await stepContext.BeginDialogAsync(nameof(ToastDialog), requestDetails, cancellationToken);
                         }
                 }
@@ -76,30 +80,22 @@ namespace ConsultingBot.Dialogs
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var result = stepContext.Result as ConsultingRequestDetails;
-            Console.WriteLine(result);
 
             // If the child dialog was cancelled or the user failed to confirm, the result will be null.
             if (result == null)
             {
-                await stepContext.Context.SendActivityAsync(MessageFactory.Text("Can't believe you couldn't even copy and paste the Bot ID right. Typical."), cancellationToken);
+                if (x != 1)
+                {
+                    await stepContext.Context.SendActivityAsync(MessageFactory.Text("Can't believe you couldn't even copy and paste the Bot ID right. Typical."), cancellationToken);
+                }
+                else
+                {
+                    return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
+                }
             }
             else
             {
-                switch (result.intent)
-                {
-                    case Intent.Roast:
-                    case Intent.Toast:
-                        {
-                            // These dialogs have their own completion messages, nothing to show
-                            break;
-                        }
-                    default:
-                        {   
-                            // If QnA Maker doesn't know what to do, show a canned message
-                            await stepContext.Context.SendActivityAsync(MessageFactory.Text("Sorry, could you please try again? I couldn't understand."), cancellationToken);
-                            break;
-                        }
-                }
+                await stepContext.Context.SendActivityAsync(MessageFactory.Text("Sorry, could you please try again? I couldn't understand."), cancellationToken);
             }
             return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
         }
