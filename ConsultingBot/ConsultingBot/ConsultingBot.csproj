@@ -9,16 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Cards\AddToProjectCard.json" />
-    <Content Remove="Cards\AddToProjectConfirmationCard.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Cards\AddToProjectCard.json" />
-    <EmbeddedResource Include="Cards\AddToProjectConfirmationCard.json" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AdaptiveCards" Version="1.2.4" />
     <PackageReference Include="AdaptiveCards.Templating" Version="0.1.0-alpha1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />

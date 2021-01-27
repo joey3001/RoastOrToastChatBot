@@ -5,16 +5,11 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using ConsultingBot.Cards;
-using ConsultingBot.TeamsActivityHandlers;
-using ConsultingBot.TeamsManifest;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Teams;
 using Microsoft.Bot.Schema;
-using Microsoft.Bot.Schema.Teams;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json.Linq;
 
 namespace ConsultingBot.Bots
 {
@@ -59,73 +54,5 @@ namespace ConsultingBot.Bots
             await dialog.Run(turnContext, conversationState.CreateProperty<DialogState>("DialogState"), cancellationToken);
         }
 
-        // protected override async Task<MessagingExtensionResponse> OnTeamsMessagingExtensionQueryAsync(ITurnContext<IInvokeActivity> turnContext, MessagingExtensionQuery query, CancellationToken cancellationToken)
-        // {
-        //     if (query.CommandId == ManifestConstants.ComposeExtensions.ProjectQuery.Id)
-        //     {
-        //         return await this.projectMessagingExtension.HandleMessagingExtensionQueryAsync(turnContext, query);
-        //     }
-        //     else
-        //     {
-        //         return new MessagingExtensionResponse();
-        //     }
-        // }
-
-        // protected override async Task<MessagingExtensionActionResponse> OnTeamsMessagingExtensionFetchTaskAsync(ITurnContext<IInvokeActivity> turnContext, MessagingExtensionAction action, CancellationToken cancellationToken)
-        // {
-        //     if (action.CommandId == ManifestConstants.ComposeExtensions.AddToProjectCard.Id)
-        //     {
-        //         return await this.projectMessagingExtension.HandleMessagingExtensionFetchTaskAsync(turnContext, action);
-        //     }
-        //     else
-        //     {
-        //         return new MessagingExtensionActionResponse();
-        //     }
-        // }
-
-        // protected override async Task<MessagingExtensionActionResponse> OnTeamsMessagingExtensionSubmitActionAsync(ITurnContext<IInvokeActivity> turnContext, MessagingExtensionAction action, CancellationToken cancellationToken)
-        // {
-        //     if (action.CommandId == ManifestConstants.ComposeExtensions.AddToProjectCard.Id)
-        //     {
-        //         return await this.projectMessagingExtension.HandleMessagingExtensionSubmitActionAsync(turnContext, cancellationToken, action);
-        //     }
-        //     else
-        //     {
-        //         return new MessagingExtensionActionResponse();
-        //     }
-        // }
-
-        //         protected override async Task<MessagingExtensionActionResponse> OnTeamsMessagingExtensionBotMessagePreviewEditAsync(
-        //   ITurnContext<IInvokeActivity> turnContext, MessagingExtensionAction action, CancellationToken cancellationToken)
-        //         {
-        //             return await this.projectMessagingExtension.OnTeamsMessagingExtensionBotMessagePreviewEditAsync(turnContext, action, cancellationToken);
-        //         }
-
-        // protected override async Task<MessagingExtensionActionResponse> OnTeamsMessagingExtensionBotMessagePreviewSendAsync(
-        //   ITurnContext<IInvokeActivity> turnContext, MessagingExtensionAction action, CancellationToken cancellationToken)
-        // {
-        //     return await this.projectMessagingExtension.OnTeamsMessagingExtensionBotMessagePreviewSendAsync(turnContext, action, cancellationToken);
-        // }
-
-        // protected override async Task<MessagingExtensionResponse> OnTeamsAppBasedLinkQueryAsync(ITurnContext<IInvokeActivity> turnContext, AppBasedLinkQuery query, CancellationToken cancellationToken)
-        // {
-        //     var projectLinkQuery = new TestLinkQuery();
-        //     return await projectLinkQuery.HandleInvokeActivityAsync(turnContext, query).ConfigureAwait(false);
-        // }
-
-        // protected override async Task<InvokeResponse> OnTeamsCardActionInvokeAsync(ITurnContext<IInvokeActivity> turnContext, CancellationToken cancellationToken)
-        // {
-        //     if (string.IsNullOrEmpty(turnContext.Activity.Name))
-        //     {
-        //         var val = turnContext.Activity.Value as JObject;
-        //         var payload = val.ToObject<AddToProjectConfirmationCard.AddToProjectCardActionValue>();
-        //         if (payload.submissionId == AddToProjectCard.SubmissionId)
-        //         {
-        //             return await AddToProjectCard.OnSubmit(turnContext, cancellationToken);
-        //         }
-        //     }
-
-        //     return await Task.FromResult<InvokeResponse>(null);
-        // }
     }
 }

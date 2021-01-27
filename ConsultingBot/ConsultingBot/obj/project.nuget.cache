@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "etk53VkgRw+7LgPSZQhHfb25l9Xv4t85JKQ8a2PiBNmDAmNIQ9btcqfv06jWEV9uuGzxbUimpCbZ5GJQsofeag==",
+  "dgSpecHash": "mDeqhqo/grXueTiSl4D9iwxC3QsRiWEu1/zBXOnC5e5HoBttlxzcI77QfeGeOaaisOJUt+89WVK2aQ2VCu8Jtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\adaptivecards\\1.2.4\\adaptivecards.1.2.4.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\adaptivecards.templating\\0.1.0-alpha1\\adaptivecards.templating.0.1.0-alpha1.nupkg.sha512",

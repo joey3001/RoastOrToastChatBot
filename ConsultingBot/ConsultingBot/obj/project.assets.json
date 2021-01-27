@@ -12919,11 +12919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "projectName": "ConsultingBot",
-      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\consultingbot\\obj\\",
+      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12940,8 +12940,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\ConsultingData\\ConsultingData.csproj": {
-              "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\BotStuff\\BotAttempt2\\consultingbot\\ConsultingData\\ConsultingData.csproj"
+            "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\ConsultingData\\ConsultingData.csproj": {
+              "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\ConsultingData\\ConsultingData.csproj"
             }
           }
         }

@@ -1,15 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using AdaptiveCards;
-using ConsultingBot.Cards;
 using ConsultingBot.Model;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
-using Microsoft.Bot.Builder.Dialogs.Choices;
-using Microsoft.Recognizers.Text.DataTypes.TimexExpression;
 
 namespace ConsultingBot.Dialogs
 {

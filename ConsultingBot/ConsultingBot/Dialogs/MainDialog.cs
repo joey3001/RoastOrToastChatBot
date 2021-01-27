@@ -6,18 +6,11 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using AdaptiveCards;
-using ConsultingBot.Cards;
 using ConsultingBot.Model;
 using Microsoft.Bot.Builder;
-using Microsoft.Bot.Builder.AI.QnA;
 using Microsoft.Bot.Builder.Dialogs;
-using Microsoft.Bot.Builder.Teams;
-using Microsoft.Bot.Connector.Teams;
-using Microsoft.Bot.Schema.Teams;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Microsoft.Recognizers.Text.DataTypes.TimexExpression;
 
 namespace ConsultingBot.Dialogs
 {
