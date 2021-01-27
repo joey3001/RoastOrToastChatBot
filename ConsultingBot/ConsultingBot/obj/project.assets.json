@@ -4769,16 +4769,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "ConsultingData/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/ConsultingData.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ConsultingData.dll": {}
-        }
       }
     }
   },
@@ -12890,18 +12880,12 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "ConsultingData/1.0.0": {
-      "type": "project",
-      "path": "../ConsultingData/ConsultingData.csproj",
-      "msbuildProject": "../ConsultingData/ConsultingData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AdaptiveCards >= 1.2.4",
       "AdaptiveCards.Templating >= 0.1.0-alpha1",
-      "ConsultingData >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.Bot.Builder.AI.Luis >= 4.6.0",
       "Microsoft.Bot.Builder.AI.QnA >= 4.5.1",
@@ -12939,11 +12923,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\ConsultingData\\ConsultingData.csproj": {
-              "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\ConsultingData\\ConsultingData.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

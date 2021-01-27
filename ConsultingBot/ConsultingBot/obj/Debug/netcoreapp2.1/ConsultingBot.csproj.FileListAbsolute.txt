@@ -56,15 +56,12 @@ C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\DeploymentTemplates\template-with-preexisting-rg.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\Model\LuisConsultingProjectModel.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\TeamsManifest\manifest.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\appSettings.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.deps.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.runtimeconfig.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.runtimeconfig.dev.json
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.dll
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingBot.pdb
-C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingData.dll
-C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\bin\Debug\netcoreapp2.1\ConsultingData.pdb
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.csprojAssemblyReference.cache
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.AssemblyInfoInputs.cache
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.AssemblyInfo.cs
@@ -72,7 +69,6 @@ C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.RazorAssemblyInfo.cache
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.RazorAssemblyInfo.cs
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.RazorTargetAssemblyInfo.cache
-C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.csproj.CopyComplete
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.dll
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.pdb
 C:\Users\josep\OneDrive\Desktop\ChatBotClone\chatbot\consultingbot\consultingbot\obj\Debug\netcoreapp2.1\ConsultingBot.genruntimeconfig.cache
