@@ -3,7 +3,6 @@
 //
 // Generated with Bot Builder V4 SDK Template for Visual Studio CoreBot v4.3.0
 
-using System;
 using System.Threading;
 using System.Threading.Tasks;
 using ConsultingBot.Model;
@@ -19,7 +18,7 @@ namespace ConsultingBot.Dialogs
         protected readonly IConfiguration Configuration;
         protected readonly ILogger Logger;
 
-        public int x; // UNCONVENTIONAL
+        public bool dialogBranchAttempt; // UNCONVENTIONAL
 
         public MainDialog(IConfiguration configuration, ILogger<MainDialog> logger)
             : base(nameof(MainDialog))
@@ -61,12 +60,12 @@ namespace ConsultingBot.Dialogs
                 {
                     case Intent.Roast:
                         {
-                            x = 1;
+                            dialogBranchAttempt = true;
                             return await stepContext.BeginDialogAsync(nameof(RoastDialog), requestDetails, cancellationToken);
                         }
                     case Intent.Toast:
                         {
-                            x = 1;
+                            dialogBranchAttempt = true;
                             return await stepContext.BeginDialogAsync(nameof(ToastDialog), requestDetails, cancellationToken);
                         }
                 }
@@ -84,13 +83,13 @@ namespace ConsultingBot.Dialogs
             // If the child dialog was cancelled or the user failed to confirm, the result will be null.
             if (result == null)
             {
-                if (x != 1)
+                if (dialogBranchAttempt)
                 {
-                    await stepContext.Context.SendActivityAsync(MessageFactory.Text("Can't believe you couldn't even copy and paste the Bot ID right. Typical."), cancellationToken);
+                    return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
                 }
                 else
                 {
-                    return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
+                    await stepContext.Context.SendActivityAsync(MessageFactory.Text("Can't believe you couldn't even copy and paste the Bot ID right. Typical."), cancellationToken);
                 }
             }
             else

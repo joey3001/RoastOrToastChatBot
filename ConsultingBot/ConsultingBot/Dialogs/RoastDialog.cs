@@ -29,7 +29,7 @@ namespace ConsultingBot.Dialogs
             var requestDetails = stepContext.Options is ConsultingRequestDetails
                 ? stepContext.Options as ConsultingRequestDetails
                 : new ConsultingRequestDetails();
-
+                
             await stepContext.Context.SendActivityAsync(MessageFactory.Text("You'll never get your ChatBot to work."), cancellationToken);
             return await stepContext.EndDialogAsync(null, cancellationToken);            
         }
