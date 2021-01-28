@@ -13,7 +13,7 @@
 * [🔥 Description 🥂](#-description-)
 * [👀 Visit The Bot's Live Page](#-visit-the-bots-live-page)
 * [🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally.](#-setup-follow-these-instructions-to-download-the-software-packages-needed-to-run-the-bot-locally)
-* [🛠️ Technologies Used](#%EF%B8%8F-technology-used)
+* [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
 * [🐛 Known Bugs](#-known-bugs)
 * [📫 Contact Information](#-contact-information)
 * [📘 Legal](#-legal)
