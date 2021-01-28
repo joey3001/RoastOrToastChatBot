@@ -88,7 +88,7 @@ To ask questions or report a bug, contact :
 
   * [Eric Endsley](mailto:eric.endsley4@gmail.com)
   * [Joseph Nero](mailto:josephnero111@gmail.com)
-  * [Austin Schrader](mailto:eric.endsley4@gmail.com)
+  * [Austin Schrader](mailto:austin.jschrader@gmail.com)
   * [Eric Stratton](mailto:strattonericj@gmail.com)
 
 ## 📘 Legal
