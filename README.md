@@ -2,6 +2,21 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Roast or Toast ChatBot](#roast-or-toast-chatbot)
+      - [A ChatBot Integrating LUIS Machine-Learning to Insult or Compliment a User Based on their Typed Utterance, 1/28/21](#a-chatbot-integrating-luis-machine-learning-to-insult-or-compliment-a-user-based-on-their-typed-utterance-12821)
+      - [By Eric Endsley, Joe Nero, Eric Stratton, and Austin Schrader](#by-eric-endsley-joe-nero-eric-stratton-and-austin-schrader)
+  - [🔥 Description 🥂](#-description-)
+  - [👀 Visit The Bot's Live Page](#-visit-the-bots-live-page)
+  - [🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally.](#-setup-follow-these-instructions-to-download-the-software-packages-needed-to-run-the-bot-locally)
+    - [Install .NET Core](#install-net-core)
+    - [Follow these instructions to clone & run the application locally using terminal commands.](#follow-these-instructions-to-clone--run-the-application-locally-using-terminal-commands)
+    - [Test the Bot Using Bot Framework Emulator](#test-the-bot-using-bot-framework-emulator)
+  - [🛠️ Technologies Used](#-technologies-used)
+  - [🐛 Known Bugs](#-known-bugs)
+  - [📫 Contact Information](#-contact-information)
+  - [📘 Legal](#-legal)
+  - [📖 Further Reading](#-further-reading)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Roast or Toast ChatBot
@@ -13,7 +28,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 * [🔥 Description 🥂](#-description-)
-* [👀 Visit The Bot's Live Page](#-visit-the-bot's-live-page)
+* [👀 Visit The Bot's Live Page](#-visit-the-bots-live-page)
 * [🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally.](#-setup-follow-these-instructions-to-download-the-software-packages-needed-to-run-the-bot-locally)
 * [🛠️ Technologies Used](#-technologies-used)
 * [🐛 Known Bugs](#-known-bugs)
