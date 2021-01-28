@@ -11,7 +11,7 @@ using Microsoft.Bot.Builder.Teams;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.Logging;
 
-namespace ConsultingBot.Bots
+namespace RoastOrToastBot.Bots
 {
     public class DialogBot<T> : TeamsActivityHandler where T : Dialog
     {

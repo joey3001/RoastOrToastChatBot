@@ -1,5 +1,5 @@
 ﻿
-namespace ConsultingBot.Model
+namespace RoastOrToastBot.Model
 {
     public enum Intent
     {
@@ -8,7 +8,7 @@ namespace ConsultingBot.Model
         Toast,
     }
 
-    public class ConsultingRequestDetails
+    public class RoastOrToastRequestDetails
     {
         public Intent intent { get; set; } = Intent.Unknown;
     }

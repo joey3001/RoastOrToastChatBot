@@ -1,19 +1,19 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using ConsultingBot.Model;
+using RoastOrToastBot.Model;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.AI.Luis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ConsultingBot
+namespace RoastOrToastBot
 {
-    public class LuisConsultingProjectRecognizer 
+    public class LuisRoastOrToastProjectRecognizer 
     {
-        public static async Task<ConsultingRequestDetails> ExecuteQuery(IConfiguration configuration, ILogger logger, ITurnContext turnContext, CancellationToken cancellationToken)
+        public static async Task<RoastOrToastRequestDetails> ExecuteQuery(IConfiguration configuration, ILogger logger, ITurnContext turnContext, CancellationToken cancellationToken)
         {
-            var result = new ConsultingRequestDetails();
+            var result = new RoastOrToastRequestDetails();
 
             try
             {

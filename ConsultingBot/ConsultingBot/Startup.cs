@@ -10,12 +10,12 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.DependencyInjection;
-using ConsultingBot.Bots;
-using ConsultingBot.Dialogs;
+using RoastOrToastBot.Bots;
+using RoastOrToastBot.Dialogs;
 using Microsoft.Extensions.Configuration;
-using ConsultingBot.Middleware;
+using RoastOrToastBot.Middleware;
 
-namespace ConsultingBot
+namespace RoastOrToastBot
 {
     public class Startup
     {

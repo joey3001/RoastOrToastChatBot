@@ -4,13 +4,13 @@
 // Generated with Bot Builder V4 SDK Template for Visual Studio CoreBot v4.3.0
 
 using System;
-using ConsultingBot.Middleware;
+using RoastOrToastBot.Middleware;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.Logging;
 
-namespace ConsultingBot
+namespace RoastOrToastBot
 {
     public class AdapterWithErrorHandler : BotFrameworkHttpAdapter
     {

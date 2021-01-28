@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using RestSharp;
 
-namespace ConsultingBot.Model
+namespace RoastOrToastBot.Model
 {
   class ComplimentApiHelper
   {

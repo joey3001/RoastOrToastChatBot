@@ -5,13 +5,13 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using ConsultingBot.Model;
+using RoastOrToastBot.Model;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ConsultingBot.Dialogs
+namespace RoastOrToastBot.Dialogs
 {
     public class MainDialog : ComponentDialog
     {
@@ -53,9 +53,9 @@ namespace ConsultingBot.Dialogs
             {   
                 var requestDetails = stepContext.Context.Activity.Text != null
                         ?
-                    await LuisConsultingProjectRecognizer.ExecuteQuery(Configuration, Logger, stepContext.Context, cancellationToken)
+                    await LuisRoastOrToastProjectRecognizer.ExecuteQuery(Configuration, Logger, stepContext.Context, cancellationToken)
                         :
-                    new ConsultingRequestDetails();
+                    new RoastOrToastRequestDetails();
                 switch (requestDetails.intent)
                 {
                     case Intent.Roast:
@@ -78,7 +78,7 @@ namespace ConsultingBot.Dialogs
         // Step 2: Confirm the final outcome
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var result = stepContext.Result as ConsultingRequestDetails;
+            var result = stepContext.Result as RoastOrToastRequestDetails;
 
             // If the child dialog was cancelled or the user failed to confirm, the result will be null.
             if (result == null)

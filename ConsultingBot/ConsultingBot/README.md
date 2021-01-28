@@ -1,4 +1,4 @@
-# ConsultingBot
+# RoastOrToastBot
 
 Bot Framework v4 core bot sample.
 
@@ -35,11 +35,11 @@ LUIS language model setup, training, and application configuration steps can be 
 
 ## To try this sample
 
-- In a terminal, navigate to `ConsultingBot`
+- In a terminal, navigate to `RoastOrToastBot`
 
     ```bash
     # change into project folder
-    cd ConsultingBot
+    cd RoastOrToastBot
     ```
 
 - Run the bot from a terminal or from Visual Studio, choose option A or B.
@@ -55,8 +55,8 @@ LUIS language model setup, training, and application configuration steps can be 
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `ConsultingBot` folder
-  - Select `ConsultingBot.csproj` file
+  - Navigate to `RoastOrToastBot` folder
+  - Select `RoastOrToastBot.csproj` file
   - Press `F5` to run the project
 
 ## Testing the bot using Bot Framework Emulator

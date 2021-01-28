@@ -7,7 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ConsultingBot
+namespace RoastOrToastBot
 {
     public class Program
     {

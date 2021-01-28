@@ -1,10 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
-using ConsultingBot.Model;
+using RoastOrToastBot.Model;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 
-namespace ConsultingBot.Dialogs
+namespace RoastOrToastBot.Dialogs
 {
     public class RoastDialog : CancelAndHelpDialog
     {
@@ -26,9 +26,9 @@ namespace ConsultingBot.Dialogs
         // Result is a Roast
         private async Task<DialogTurnResult> ProjectStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var requestDetails = stepContext.Options is ConsultingRequestDetails
-                ? stepContext.Options as ConsultingRequestDetails
-                : new ConsultingRequestDetails();
+            var requestDetails = stepContext.Options is RoastOrToastRequestDetails
+                ? stepContext.Options as RoastOrToastRequestDetails
+                : new RoastOrToastRequestDetails();
 
             var insult = InsultApiResult.GetInsults();
                 

@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsultingBot.Middleware
+namespace RoastOrToastBot.Middleware
 {
     public class StripBotMention : IMiddleware
     {

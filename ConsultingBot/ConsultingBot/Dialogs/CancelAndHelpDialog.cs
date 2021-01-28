@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 
-namespace ConsultingBot.Dialogs
+namespace RoastOrToastBot.Dialogs
 {
     public class CancelAndHelpDialog : ComponentDialog
     {
