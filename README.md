@@ -95,7 +95,7 @@ To ask questions or report a bug, contact :
 
 [MIT License](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 Joseph Nero, Eric Endsley, Eric Stratton, Austin Schrader. 
+Copyright (c) 2021 Joseph Nero, Eric Endsley, Eric Stratton, Austin Schrader. 
 
 ## 📖 Further Reading 
 
