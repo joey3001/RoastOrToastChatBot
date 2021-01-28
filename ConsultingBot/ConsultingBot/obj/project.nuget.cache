@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qq00oJt1DABugfRp0GBzchgp49wReX9608NOo/RbSMCgznyUGFBb1JZqfrXcztnhp6ZU6vNFTFjEMjw5XPNvJw==",
+  "dgSpecHash": "uwwH5o9Lej0BonUtPzSMUdqZI3D0gZnCmd0PO8YtAQcPsgQRfm1LsdQfbYYPzoL/uy9r6J8MUSN+LPhEhlW4EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\RoastOrToastChatBot\\roastortoastchatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

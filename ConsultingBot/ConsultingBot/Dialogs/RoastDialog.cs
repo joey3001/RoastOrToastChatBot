@@ -29,8 +29,10 @@ namespace ConsultingBot.Dialogs
             var requestDetails = stepContext.Options is ConsultingRequestDetails
                 ? stepContext.Options as ConsultingRequestDetails
                 : new ConsultingRequestDetails();
+
+            var insult = InsultApiResult.GetInsults();
                 
-            await stepContext.Context.SendActivityAsync(MessageFactory.Text("You'll never get your ChatBot to work."), cancellationToken);
+            await stepContext.Context.SendActivityAsync(MessageFactory.Text(insult), cancellationToken);
             return await stepContext.EndDialogAsync(null, cancellationToken);            
         }
     }

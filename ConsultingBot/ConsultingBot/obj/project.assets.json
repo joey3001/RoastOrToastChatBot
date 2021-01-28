@@ -12846,11 +12846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\RoastOrToastChatBot\\roastortoastchatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "projectName": "ConsultingBot",
-      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\RoastOrToastChatBot\\roastortoastchatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\obj\\",
+      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\RoastOrToastChatBot\\roastortoastchatbot\\consultingbot\\consultingbot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
