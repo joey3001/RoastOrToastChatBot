@@ -11,7 +11,7 @@
     - [Install .NET Core](#install-net-core)
     - [Follow these instructions to clone & run the application locally using terminal commands.](#follow-these-instructions-to-clone--run-the-application-locally-using-terminal-commands)
     - [Test the Bot Using Bot Framework Emulator](#test-the-bot-using-bot-framework-emulator)
-  - [🛠️ Technologies Used](#-technologies-used)
+  - [🛠️ Technology Used](#-technology-used)
   - [🐛 Known Bugs](#-known-bugs)
   - [📫 Contact Information](#-contact-information)
   - [📘 Legal](#-legal)
@@ -30,7 +30,7 @@
 * [🔥 Description 🥂](#-description-)
 * [👀 Visit The Bot's Live Page](#-visit-the-bots-live-page)
 * [🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally.](#-setup-follow-these-instructions-to-download-the-software-packages-needed-to-run-the-bot-locally)
-* [🛠️ Technologies Used](#-technologies-used)
+* [🛠️ Technologies Used](#-technology-used)
 * [🐛 Known Bugs](#-known-bugs)
 * [📫 Contact Information](#-contact-information)
 * [📘 Legal](#-legal)
@@ -75,7 +75,7 @@ For Mac users click [this link](https://dotnet.microsoft.com/download/dotnet-cor
 
 4. Enjoy chatting with your bot! 
 
-## 🛠️ Technologies Used
+## 🛠️ Technology Used
 
   * LUIS.ai Machine Learning
   * Microsoft Bot Framework 
