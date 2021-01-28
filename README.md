@@ -78,7 +78,7 @@ For Mac users click [this link](https://dotnet.microsoft.com/download/dotnet-cor
 
 ## 🐛 Known Bugs
 
-  * Technologies used link in the table of contents does not successfully redirect you. 
+There are no known bugs at this time. 
 
 ## 📫 Contact Information
 
