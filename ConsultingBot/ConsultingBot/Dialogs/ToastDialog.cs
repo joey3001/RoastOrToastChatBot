@@ -30,7 +30,9 @@ namespace ConsultingBot.Dialogs
                 ? stepContext.Options as ConsultingRequestDetails
                 : new ConsultingRequestDetails();
 
-            await stepContext.Context.SendActivityAsync(MessageFactory.Text("You're an amazing friend and programmer."), cancellationToken);
+            string compliment = ComplimentApiResult.GetCompliments(); // MAKE API CALL USING APIHELPER AND CLASS
+
+            await stepContext.Context.SendActivityAsync(MessageFactory.Text(compliment), cancellationToken);
             return await stepContext.EndDialogAsync(null, cancellationToken);    
         }
     }

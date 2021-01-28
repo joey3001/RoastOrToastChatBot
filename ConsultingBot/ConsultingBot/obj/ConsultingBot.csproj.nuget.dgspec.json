@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj": {}
+    "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj": {
+    "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
         "projectName": "ConsultingBot",
-        "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+        "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
         "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\obj\\",
+        "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -74,6 +74,14 @@
             "Microsoft.Recognizers.Text.DateTime": {
               "target": "Package",
               "version": "[1.2.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
             }
           },
           "imports": [

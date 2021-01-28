@@ -16,6 +16,8 @@
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.6.3" />
     <PackageReference Include="Microsoft.Recognizers.Text.DataTypes.TimexExpression" Version="1.2.8" />
     <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.2.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.10" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2903,7 +2903,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2945,6 +2945,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "RestSharp/106.6.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -7792,10 +7801,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7818,7 +7827,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -7856,6 +7865,21 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.2.0.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "RestSharp/106.6.10": {
+      "sha512": "x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "type": "package",
+      "path": "restsharp/106.6.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.6.10.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -12810,7 +12834,9 @@
       "Microsoft.Bot.Builder.Integration.AspNet.Core >= 4.6.3",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.Recognizers.Text.DataTypes.TimexExpression >= 1.2.8",
-      "Microsoft.Recognizers.Text.DateTime >= 1.2.8"
+      "Microsoft.Recognizers.Text.DateTime >= 1.2.8",
+      "Newtonsoft.Json >= 12.0.2",
+      "RestSharp >= 106.6.10"
     ]
   },
   "packageFolders": {
@@ -12820,11 +12846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "projectName": "ConsultingBot",
-      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+      "projectPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\obj\\",
+      "outputPath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12887,6 +12913,14 @@
           "Microsoft.Recognizers.Text.DateTime": {
             "target": "Package",
             "version": "[1.2.8, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.6.10, )"
           }
         },
         "imports": [

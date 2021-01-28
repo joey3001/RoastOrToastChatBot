@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UYYV9G8u1D6CaKXtefR/uk/EtSLN8z6g41UmpyWhp7Rdt8r2okBCc8AC5+KNObSaySL3T/2inRuxRKLpzFCGMw==",
+  "dgSpecHash": "Qq00oJt1DABugfRp0GBzchgp49wReX9608NOo/RbSMCgznyUGFBb1JZqfrXcztnhp6ZU6vNFTFjEMjw5XPNvJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\ChatBotClone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
+  "projectFilePath": "C:\\Users\\josep\\OneDrive\\Desktop\\chatbotclone\\chatbot\\consultingbot\\consultingbot\\ConsultingBot.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
@@ -189,9 +189,10 @@
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19\\microsoft.rest.clientruntime.azure.3.3.19.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
