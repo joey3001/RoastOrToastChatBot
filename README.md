@@ -25,7 +25,9 @@ This is a ChatBot developed using the Microsoft Bot Framework & integrating LUIS
 
 ## 👀 Visit The Bot's Live Page
 
-As an alternative to running the bot locally and sending it utterances in the emulator, you may visit [this link](https://www.roastortoastchatbot.com/) to interact with the bot hosted on a live webpage. 
+As an alternative to running the bot locally and sending it utterances in the emulator, you may visit the bot's live page at the following link : 
+
+[Roast or Toast Bot's Live Page](https://www.roastortoastchatbot.com/) to interact with the bot hosted on a live webpage. 
 
 ## 🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally. 
 
