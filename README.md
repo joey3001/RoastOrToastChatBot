@@ -13,7 +13,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 * [🔥 Description 🥂](#-description-)
-* [👀 Visit The Bot's Live Page](#-visit-the-bot-live-page)
+* [👀 Visit The Bot's Live Page](#-visit-the-bot's-live-page)
 * [🔧 Setup: Follow these instructions to download the software packages needed to run the bot locally.](#-setup-follow-these-instructions-to-download-the-software-packages-needed-to-run-the-bot-locally)
 * [🛠️ Technologies Used](#-technologies-used)
 * [🐛 Known Bugs](#-known-bugs)
