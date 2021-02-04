@@ -4,7 +4,7 @@
 
 # Roast or Toast ChatBot
 
-#### A ChatBot Integrating LUIS Machine-Learning to Insult or Compliment a User Based on their Typed Utterance, 1/28/21
+#### A ChatBot Integrating LUIS Machine-Learning to Insult or Compliment a User Based on their typed Utterance, 1/28/21
 
 #### By Eric Endsley, Joe Nero, Eric Stratton, and Austin Schrader
 
